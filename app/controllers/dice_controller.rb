@@ -7,5 +7,8 @@ class DiceController < ApplicationController
   def one_twenty
     render({:template => "dice_templates/one_d_twenty"})
   end
-  
+
+  def two_ten
+    render({:template => "dice_templates/two_d_ten"})
+  end
 end
