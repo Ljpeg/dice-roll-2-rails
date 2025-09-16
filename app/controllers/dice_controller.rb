@@ -15,4 +15,9 @@ class DiceController < ApplicationController
   def two_six
     render({:template => "dice_templates/two_d_six"})
   end
+
+  def home
+    render({:template => "dice_templates/home"})
+  end
+
 end
