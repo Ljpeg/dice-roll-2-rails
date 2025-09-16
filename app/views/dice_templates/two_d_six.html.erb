@@ -1,9 +1,9 @@
 <h1>2d6</h1>
 
 <ul>
-<% 2.times do%>
+<% @dice_rolls.each do |roll| %>
   <li>
-  <%= rand(1..6)%>
+  <%= roll %>
   </li>
 <% end %> 
 </ul>
